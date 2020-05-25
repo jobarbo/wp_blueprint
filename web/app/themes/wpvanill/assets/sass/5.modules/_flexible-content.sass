@@ -1,0 +1,58 @@
+// ==========================================================================
+// MODULES - FLEXIBLE CONTENT
+// ==========================================================================
+
+
+.columns
+
+  .row
+    // padding: 3em 0
+
+  .one-column
+      // img
+      //   margin: 0 auto
+      //   &.-full-width
+      //     padding: 0
+      //     width: 100%
+
+  .two-columns
+    display: flex
+    align-items: center
+    > *
+      width: 50%
+
+
+  +mobile-only
+    .two-columns
+      flex-flow: row wrap
+      > *
+        width: 100%
+        padding: 3em
+      *:not(.text-section) + .text-section
+        order: -1
+    
+
+//
+//
+// TEXT SECTION
+.text-section
+  max-width: 48em
+  margin: 0 auto
+  padding: 5em
+
+
+//
+//
+// IMAGE SECTION
+.image-section
+  img
+    margin: 0 auto
+
+
+
+
+
+
+
+
+

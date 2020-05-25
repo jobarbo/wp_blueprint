@@ -1,0 +1,17 @@
+.DS_Store
+.sass-cache
+
+
+node_modules
+bower_components
+
+assets/js/vendor/*
+assets/js/plugins/*
+assets/css/plugins/*
+assets/img/plugins/*
+
+!assets/js/plugins/modernizr
+!assets/js/plugins/app
+!assets/js/plugins/o2
+tests.html
+bs_config.json
